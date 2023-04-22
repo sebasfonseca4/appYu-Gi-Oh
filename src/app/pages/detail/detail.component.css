@@ -1,0 +1,43 @@
+.details{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(217, 217, 185);
+  margin: 2em
+}
+.details .top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.details .top img {
+  max-width: 300px;
+  width: 100%;
+}
+
+.details .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 1em;
+}
+
+.details .bottom .item{
+  max-width: 500px;
+  text-align: center;
+}
+
+.details .bottom .table{
+  max-width: 400px;
+  background-color: white;
+}
+
+
+@media only screen and (min-width: 800px){
+  .details{
+    flex-direction: row;
+  }
+}
